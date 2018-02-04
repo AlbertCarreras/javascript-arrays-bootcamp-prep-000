@@ -13,6 +13,7 @@ function addElementoEndOfArray(array,element) {
   return [...array, element]
 }
 
+array=[]
 function destructivelyAddElementToEndOfArray(array,element) {
   array = [...array, element]
   return array
